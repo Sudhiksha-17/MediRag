@@ -1,0 +1,46 @@
+﻿# Virtual environment
+medicalrag/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ALL data files
+data/
+
+# ChromaDB vector store
+chroma_db/
+
+# Model cache and weights
+.cache/
+models/
+*.pt
+*.bin
+*.safetensors
+*.h5
+*.onnx
+
+# Kaggle
+kaggle.json
+.kaggle/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/*.ipynb
